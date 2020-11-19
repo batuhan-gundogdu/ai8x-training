@@ -607,7 +607,7 @@ Even though it is supported by the accelerator, the Network Generator will not b
 
 For each layer, the weight memory start column is automatically configured by the Network Loader. The start column must be a multiple of 4, and the value applies to all processors.
 
-The following example shows the weight memory layout for two layers. The first layer (L0) has 7 inputs and 9 outputs, and the second layer (L1) has 9 inputs and 2 outputs.
+The following example shows the weight memory layout for two layers. The first layer (L0) has 7 inputs and 10 outputs, and the second layer (L1) has 10 inputs and 2 outputs.
 
 ![Layers and Weight Memory](docs/KernelMemoryLayers.png)
 
